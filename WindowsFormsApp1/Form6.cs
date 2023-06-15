@@ -15,6 +15,12 @@ namespace WindowsFormsApp1
         public Form6()
         {
             InitializeComponent();
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("你好");
         }
     }
 }
